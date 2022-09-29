@@ -1,19 +1,22 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "email": "akgupta0524@gmail.com",
+      "password": "masaischool",
+      "username": "AMAN KUMAR",
+      "id": 7
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "email": "ak@gmail.com",
+      "password": "123456",
+      "username": "Aman",
+      "id": 8
+    },
+    {
+      "email": "rana@gmail.com",
+      "password": "$2a$10$9r2zDXb0Mp3lYTidg/hWleCKRIRS45gVbGcF8FJkpn.LmmCyxhJOm",
+      "username": "rana",
+      "id": 9
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
