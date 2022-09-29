@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
      box-sizing:border-box;
      font-family: 'Work Sans', sans-serif; 
+    
+body{
+    background-color:${({ theme }) => theme.colors.off_white} ;
+}
 }
 html{
     font-size:62.5% ;

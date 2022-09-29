@@ -1,23 +1,21 @@
-import { useState, useContext } from "react";
-import {AppContext} from "../Appcontext/AppContext";
+import { useState } from "react";
 
-function Login() {
-  const {loginUser} = useContext(AppContext);
-
+function Signup() {
   const [formData, setFormData] = useState({
     email: "", // required
     password: "", // required
+    username: "", // optional
   });
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/login", {
+    fetch("http://localhost:3000/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
     })
       .then((res) => res.json())
-      .then((data) => loginUser(data.accessToken));
+      .then((data) => console.log(data));
   }
 
   function handleChange(e) {
@@ -26,8 +24,15 @@ function Login() {
 
   return (
     <div>
-      <h1>Login Form</h1>
+      <h1>Signup Form</h1>
       <form className="login-form" onSubmit={(e) => handleSubmit(e)}>
+        <input
+          type="text"
+          placeholder="Username"
+          value={formData.username}
+          name="username"
+          onChange={(e) => handleChange(e)}
+        ></input>
         <input
           type="text"
           placeholder="Email"
@@ -43,11 +48,11 @@ function Login() {
           onChange={(e) => handleChange(e)}
         ></input>
         <button className="login-btn" type="submit">
-          Login
+          Sign Up
         </button>
       </form>
     </div>
   );
 }
 
-export default Login;
+export default Signup;
