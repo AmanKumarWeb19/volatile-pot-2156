@@ -8,12 +8,24 @@ const Navbar = (props) => {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: auto;
     gap: 15rem;
+    height: auto;
     /* border: 1px solid blue; */
     .header_logo {
-      width: 15%;
+      width: 10%;
+      a {
+        .logo {
+          width: 200px;
+        }
+      }
+    }
+    .six_icon {
+      width: 60%;
+    }
+    .three_icon {
+      width: 30%;
     }
     .menuIcon {
       display: flex;
@@ -26,6 +38,7 @@ const Navbar = (props) => {
       align-items: center;
       text-align: center;
       width: 85%;
+      height: 100%;
       .navbar-list {
         display: flex;
         gap: 3rem;
@@ -82,8 +95,9 @@ const Navbar = (props) => {
           background-color: ${({ theme }) => theme.colors.hover_color};
           color: ${({ theme }) => theme.colors.black};
           border-radius: 0.3rem;
-          padding: 1.1rem;
-          font-size: 2rem;
+          padding: 1rem;
+          width: 10rem;
+          font-size: 1.5rem;
         }
       }
     }
@@ -102,7 +116,7 @@ const Navbar = (props) => {
         </NavLink>
       </div>
       <div className="menuIcon">
-        <div>
+        <div className="six_icon">
           {" "}
           <ul className="navbar-list">
             <li>
@@ -138,7 +152,7 @@ const Navbar = (props) => {
           </ul>
         </div>
 
-        <div>
+        <div className="three_icon">
           <ul className="navbar-list2">
             <li>
               <NavLink className="navbar-link2" to="/contactus">

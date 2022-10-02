@@ -12,7 +12,7 @@ body{
 }
 }
 html{
-    font-size:62.5% ;
+    font-size:62% ;
     overflow-x:hidden ;
 }
 h1{
@@ -45,5 +45,22 @@ a{
 li{
     list-style:none ;
 }
+.container{
+    max-width:120rem ;
+    margin:0 auto ;
+}
+.grid{
+    display:grid;
+    gap:9rem
 
+}
+.grid-two-column{
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.grid-three-column{
+    grid-template-columns:repeat(3,1fr) ;
+}
+.grid-four-column{
+    grid-template-columns:repeat(4,1fr)
+}
 `;
