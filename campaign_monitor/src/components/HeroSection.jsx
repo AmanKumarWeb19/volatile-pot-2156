@@ -141,6 +141,128 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      {/* ////////////////////////////////////// */}
+      <div className="Eager">
+        <p className="eag_para">Eager to see it in action? Take a look.</p>
+        <Button>
+          <NavLink to="/tryitfree">Get started for free</NavLink>
+        </Button>
+      </div>
+      {/* /////////////////////////////////// */}
+      <div className="sec_three">
+        <div className="bg_part">
+          <div className="bg">
+            <div className="bg_img_box">
+              <img
+                className="bg_img"
+                src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/sms-image-2x.png?ver=298"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div className="bg_right">
+          <div className="p_tag">
+            <p className="p">SMS is here!</p>
+            <p className="p">A new way to connect.</p>
+            <p className="p">A new way to convert.</p>
+          </div>
+
+          <div className="p2_tag">
+            <p className="p2">
+              Combining SMS and email marketing is the perfect way to build a
+              stronger connection with your audience and maximize ROI. We make
+              it easy to get started.
+            </p>
+          </div>
+
+          <button>Learn More</button>
+        </div>
+      </div>
+      {/* ////////////////////////////////Section--4---/////////////////////////////////////////// */}
+
+      <div className="sec4">
+        <div className="sec4_img_box">
+          <div className="sec4_img_box">
+            <img
+              className="sec4_img"
+              src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/resized-5-21/template-1_comp-r.jpg?ver=298"
+              alt=""
+            />
+          </div>
+          <div className="sec4_img_box">
+            <img
+              className="sec4_img"
+              src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/resized-5-21/template-2_comp-r.jpg?ver=298"
+              alt=""
+            />
+          </div>
+          <div className="sec4_img_box">
+            <img
+              className="sec4_img"
+              src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/resized-5-21/template-3_comp-r.jpg?ver=298"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="sec4_para">
+          <p className="p1">Get started with one of our free templates.</p>
+          <p className="p2">
+            Start your email with one of our professionally-designed templates
+            to launch targeted campaigns like marketing offers, product
+            announcements, newsletters, or event promotions.
+          </p>
+          <button>Build an email</button>
+        </div>
+      </div>
+      {/* /////////////////////////////////////////////////////////////////////////////////// */}
+
+      <div className="sec5">
+        <div className="sec5_bg"></div>
+      </div>
+      {/* ////////////////////////// */}
+      <div className="main_box">
+        <div className="m_box1">
+          <p className="mb_para">
+            Automate email journeys for perfectly timed sends.
+          </p>
+          <p className="m_para">
+            Most marketers think automation is intimidating. But creating
+            customer journeys has never been more approachable than with the
+            visual journey designer.
+          </p>
+          <button>Explore automation</button>
+        </div>
+        <div className="m_box2">
+          <img
+            className="m_box2_img"
+            src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/agencies/family-of-brands.png?ver=298"
+            alt=""
+          />
+        </div>
+      </div>
+      {/* ////////////////////////////////////////////////////////// */}
+      <div className="sec6">
+        <div className="sec6_bg"></div>
+      </div>
+      {/* //////////////////////////////////////////////////////// */}
+
+      <div className="sec7">
+        <div className="sec7_para">
+          <div className="sec7_p1">
+            <p className="sec_para1">Get started with Campaign Monitor today</p>
+          </div>
+          <div className="sec7_p2">
+            <p className="sec_para2">
+              With our powerful yet easy-to-use tools, it's never been easier to
+              make an impact with email marketing.
+            </p>
+          </div>
+          <Button>
+            <NavLink to="/tryitfree">Sign up for free</NavLink>
+          </Button>
+        </div>
+      </div>
     </Wrapper>
   );
 };
@@ -163,6 +285,7 @@ const Wrapper = styled.section`
   .btn {
     max-width: 18rem;
   }
+
   .button_two {
     display: flex;
     gap: 1.2rem;
@@ -289,6 +412,245 @@ const Wrapper = styled.section`
   }
   .gusto_two img {
     width: 100%;
+  }
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .Eager {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin: 80px auto;
+
+    /* margin: auto; */
+  }
+  .eag_para {
+    /* border: 1px solid red; */
+    font-size: 2rem;
+  }
+  .Eager Button {
+    /* font-size: 13px; */
+    width: 65%;
+    /* border: 1px solid red; */
+    margin: 10px 60px auto;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+  }
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .sec_three {
+    width: 100%;
+    height: 750px;
+    /* border: 1px solid red; */
+    display: flex;
+
+    .bg_part {
+      width: 50%;
+      height: 800px;
+      /* border: 1px solid yellow; */
+      .bg {
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 100%;
+        background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/sms-vector-bg-no-dots.svg?ver=298");
+        position: relative;
+        background-repeat: no-repeat;
+        .bg_img_box {
+          width: 80%;
+          height: 100%;
+          position: absolute;
+          right: 0;
+          display: flex;
+          .bg_img {
+            width: 100%;
+            height: 650px;
+          }
+        }
+      }
+    }
+    .bg_right {
+      width: 50%;
+      height: 500px;
+      /* border: 2px solid green; */
+      margin: 15rem 5rem auto;
+
+      .p_tag {
+        /* border: 1px solid green; */
+        text-align: left;
+        width: 70%;
+
+        .p {
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 1.5;
+        }
+      }
+      .p2_tag {
+        text-align: left;
+        width: 56%;
+        /* border: 1px solid black; */
+        font-size: 20px;
+        margin-top: 2rem;
+        line-height: 1.2;
+
+        .p2 {
+          /* font-size: 16px; */
+        }
+      }
+      button {
+        background-color: ${({ theme }) => theme.colors.btn_color};
+        color: white;
+        margin-top: 20px;
+        padding: 2rem 4rem 2rem 4rem;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+      }
+    }
+  }
+  /* /////////////////////////Section-4//////////////////////////// */
+  .sec4 {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid red; */
+    display: flex;
+
+    .sec4_img_box {
+      width: 60%;
+      height: 450px;
+      /* border: 2px solid black; */
+      display: flex;
+      .sec4_img_box {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        gap: 2rem;
+        border-radius: 1rem;
+        border: none;
+      }
+      .sec4_img {
+        width: 98%;
+        /* border: 1px solid red; */
+      }
+    }
+    .sec4_para {
+      width: 35%;
+      height: 350px;
+      /* border: 1px solid red; */
+      margin: 50px auto;
+
+      .p1 {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .p2 {
+        font-size: 20px;
+      }
+      button {
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 2rem 4rem;
+        color: rgb(120, 86, 255);
+        border: 1px solid rgb(120, 86, 255);
+      }
+    }
+  }
+  .sec5 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+
+    .sec5_bg {
+      /* position: relative; */
+      width: 100%;
+      height: 400px;
+      background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/heroes/banner-ripcurl.jpg");
+    }
+  }
+  /* ///////////////////////////////////////////////////////// */
+  .main_box {
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 50px auto;
+    display: flex;
+    gap: 5rem;
+
+    .m_box1 {
+      width: 50%;
+      /* border: 1px solid red; */
+      margin: 50px 0px;
+
+      .mb_para {
+        /* border: 1px solid red; */
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        /* margin: 50px auto; */
+      }
+      .m_para {
+        /* border: 1px solid red; */
+        width: 80%;
+        /* margin: 50px auto; */
+      }
+      button {
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 2rem 4rem;
+        color: rgb(120, 86, 255);
+        border: 1px solid rgb(120, 86, 255);
+      }
+    }
+    .m_box2 {
+      width: 50%;
+      /* border: 1px solid blue; */
+      .m_box2_img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  /* ///////////////////////////////////////////////////////////////////////////// */
+  .sec6 {
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+
+    .sec6_bg {
+      /* position: relative; */
+      width: 100%;
+      height: 400px;
+      background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/thegist-bg.jpg");
+    }
+  }
+  /* //////////////////////////////////////////////////// */
+  .sec7 {
+    width: 100%;
+
+    border: 2px solid rgb(104, 170, 255);
+    background-color: rgb(104, 170, 255);
+    .sec7_para {
+      width: 35%;
+      /* height: 600px; */
+      /* border: 1px solid red; */
+      text-align: center;
+      margin: 15rem auto;
+
+      .sec7_p1 {
+        /* border: 1px solid black; */
+        .sec_para1 {
+          font-size: 40px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+      .sec_para2 {
+        color: white;
+      }
+      button {
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 2rem 4rem;
+        color: white;
+        border-radius: 10px;
+        border: none;
+      }
+    }
   }
 `;
 

@@ -56,7 +56,7 @@ export const App = () => {
           <Route path="/login" element={<Login loginTheme={loginTheme} />} />
           <Route path="/tryitfree" element={<Signup />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </ThemeProvider>
     </>
   );
