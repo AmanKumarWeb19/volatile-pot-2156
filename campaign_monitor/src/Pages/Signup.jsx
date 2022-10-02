@@ -1,24 +1,27 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const Sign = styled.div`
   width: 30%;
-  /* border: 1px solid red; */
   margin: 7rem auto;
-  height: 200px;
-  .signup_logo {
-    width: 40%;
-    /* border: 1px solid green; */
-    margin: 20px auto;
+  height: auto;
+  .sign_one {
+    .signup_logo {
+      width: 40%;
+      /* border: 1px solid green; */
+      margin: 20px auto;
+    }
+    h1 {
+      font-weight: 600;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
   }
-  h1 {
-    font-weight: 600;
-  }
-  p {
-    width: 100%;
-    text-align: center;
-  }
+
   /*  */
   .sign_two {
     /* border: 2px solid green; */
@@ -95,6 +98,7 @@ const Sign = styled.div`
 `;
 
 function Signup(props) {
+  let navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "", // required
     password: "", // required
@@ -109,7 +113,7 @@ function Signup(props) {
       body: JSON.stringify(formData),
     })
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => navigate("/login"));
   }
 
   function handleChange(e) {

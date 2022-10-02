@@ -23,6 +23,18 @@
       "password": "$2a$10$QBEuzsVaANeEAoCNkyXW/e0ZLhlTCVnwlHOy2hQ02/2XjzOse6wSq",
       "username": "nidhi",
       "id": 10
+    },
+    {
+      "email": "nidhik@gmail.com",
+      "password": "$2a$10$XbkOuAfz6P.v/aaCufwTf.p2c1cnCIo7B836cgCaOjv6SZn.OZhP.",
+      "username": "nidhi",
+      "id": 11
+    },
+    {
+      "email": "rana2@gmail.com",
+      "password": "$2a$10$krNBSesSlIy0H.wrHtXH7uGzDM5xMk5aBOteOwb/M3/2p7YDEe6ny",
+      "username": "rana2",
+      "id": 12
     }
   ]
 }

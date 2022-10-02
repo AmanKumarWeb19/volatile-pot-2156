@@ -6,26 +6,24 @@ import styled from "styled-components";
 const Header = (props) => {
   console.log("propd", props.loginTheme);
   const MainHeader = styled.header`
-    /* padding: 0 4.8rem; */
     height: 8rem;
     background-color: ${props.loginTheme
       ? ({ theme }) => theme.colors.white
       : ({ theme }) => theme.colors.black};
-    /* border: 1px solid red; */
+
     display: flex;
     align-items: center;
     z-index: 1;
     .container {
       width: 100%;
       display: flex;
-      /* border: 1px solid orange; */
+
       justify-content: end;
       align-items: center;
       height: 100%;
     }
     .logo {
       height: auto;
-      /* max-width: 30%; */
     }
   `;
   return (

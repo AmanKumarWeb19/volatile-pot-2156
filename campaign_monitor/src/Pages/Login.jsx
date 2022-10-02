@@ -1,6 +1,7 @@
 import { useState, useContext } from "react";
 import { AppContext } from "../Appcontext/AppContext";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const Log = styled.div`
   /* border: 1px solid red; */
@@ -63,6 +64,7 @@ const Log = styled.div`
 `;
 
 function Login() {
+  let navigate = useNavigate();
   const { loginUser } = useContext(AppContext);
 
   const [formData, setFormData] = useState({
@@ -78,7 +80,11 @@ function Login() {
       body: JSON.stringify(formData),
     })
       .then((res) => res.json())
-      .then((data) => loginUser(data.accessToken));
+
+      .then((data) => {
+        loginUser(data.accessToken);
+        navigate("/");
+      });
   }
 
   function handleChange(e) {
