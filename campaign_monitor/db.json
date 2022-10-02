@@ -17,6 +17,12 @@
       "password": "$2a$10$9r2zDXb0Mp3lYTidg/hWleCKRIRS45gVbGcF8FJkpn.LmmCyxhJOm",
       "username": "rana",
       "id": 9
+    },
+    {
+      "email": "nidhi@gmail.com",
+      "password": "$2a$10$QBEuzsVaANeEAoCNkyXW/e0ZLhlTCVnwlHOy2hQ02/2XjzOse6wSq",
+      "username": "nidhi",
+      "id": 10
     }
   ]
 }

@@ -14,12 +14,14 @@ const Header = (props) => {
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
+    z-index: 1;
     .container {
       width: 100%;
       display: flex;
       /* border: 1px solid orange; */
       justify-content: end;
       align-items: center;
+      height: 100%;
     }
     .logo {
       height: auto;
