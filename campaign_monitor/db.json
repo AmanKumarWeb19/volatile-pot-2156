@@ -35,6 +35,42 @@
       "password": "$2a$10$krNBSesSlIy0H.wrHtXH7uGzDM5xMk5aBOteOwb/M3/2p7YDEe6ny",
       "username": "rana2",
       "id": 12
+    },
+    {
+      "email": "aj@gmail.com",
+      "password": "$2a$10$eueRMbHL216D1makVCvE..FxF6RTGu1QJrdV70EvkfoJu12jZzZZ2",
+      "username": "aman kr",
+      "id": 13
+    },
+    {
+      "email": "akj@gmail.com",
+      "password": "$2a$10$S1xqEolNgcBpk.a/tdKS3.4Z.V22/JxeRCSs4W2QdD2wtD5PXtETS",
+      "username": "akj kumar",
+      "id": 14
+    },
+    {
+      "email": "nidhimylove@gmail.com",
+      "password": "$2a$10$eyq28Z4BabZdiPNmrfm7su1uHNrKlrizO33MDxqCgNJPEqPJVMGdy",
+      "username": "Nidhi poddar",
+      "id": 15
+    },
+    {
+      "email": "adi@gmail.com",
+      "password": "$2a$10$HHck8ud.58QjQms6pwmh8OLWxgTpix2Q/gWhC/5Wz/NsJLTgbhcbO",
+      "username": "aditya",
+      "id": 16
+    },
+    {
+      "email": "kailash@gmail.com",
+      "password": "$2a$10$0weXpPR7u3b6AMEYbBhg7.kpuo3IL55B8UNMiftY6K0o81HaH3ZQ2",
+      "username": "kailash ",
+      "id": 17
+    },
+    {
+      "email": "ranahr@gmail.com",
+      "password": "$2a$10$loeJdaF225RitmrNoaUoLOuM875a.KY4dLR2XpDW.yWRJEH1XDzCa",
+      "username": "ranakumar",
+      "id": 18
     }
   ]
 }

@@ -11,9 +11,9 @@ export const Button = styled.button`
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 
   &:hover,
   &:active {
