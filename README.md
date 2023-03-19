@@ -2,11 +2,11 @@
 
 
 
-<p id="description">Compaign Monitor is an e-commerce online website for the best fashion products of all categories for the consumer. User can buy products at best deals and offers.<br><br><b>This is a collaborative project of 4 members</b><br><br>- Gaurav Singh (Team Lead)<br>- Jitendra Kumar <br>- Aman Kumar <br>- Sanket TJ </p>
+<p id="description">Compaign Monitor is an e-commerce online website for the best fashion products of all categories for the consumer. User can buy products at best deals and offers.<br> </p>
 
 <h2>🌐See Live</h2>
 
-[https://halting-title-3346.vercel.app/](https://halting-title-3346.vercel.app/)
+[https://vermillion-parfait-2ba445.netlify.app/](https://vermillion-parfait-2ba445.netlify.app/)
 
 <h2>Project Screenshots:</h2>
 
@@ -14,17 +14,12 @@
   
 ![halting-title-3346 vercel app_ (1)](https://user-images.githubusercontent.com/110033104/214221619-2f1f8726-78a6-4de3-9e11-58aba50b8b4d.png)
 
-## Product Page
-
-![halting-title-3346 vercel app_productlist (1)](https://user-images.githubusercontent.com/110033104/214222238-3ba7bdf8-feba-42a1-946e-bbec868730cf.png)
-
-
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the repo</p>
 
 ```
-git clone https://github.com/gaurav62472744/halting-title-3346.git
+git clone https://github.com/AmanKumarWeb19/volatile-pot-2156.git
 ```
 
 <p>2. Install NPM packages</p>
