@@ -14,6 +14,14 @@
   
 ![volatile-pot-2156 netlify app_ (1)](https://github.com/AmanKumarWeb19/volatile-pot-2156/blob/day-2/campaign_monitor/public/images/Homepage.png)
 
+## Login Page
+  
+![volatile-pot-2156 netlify app_ (2)](https://github.com/AmanKumarWeb19/volatile-pot-2156/blob/day-2/campaign_monitor/public/images/logijn_page.png)
+
+## SignUp Page
+  
+![volatile-pot-2156 netlify app_ (3)](https://github.com/AmanKumarWeb19/volatile-pot-2156/blob/day-2/campaign_monitor/public/images/signup_page.png)
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the repo</p>
