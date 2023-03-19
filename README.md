@@ -12,7 +12,7 @@
 
 ## Home Page
   
-![halting-title-3346 vercel app_ (1)](https://user-images.githubusercontent.com/110033104/214221619-2f1f8726-78a6-4de3-9e11-58aba50b8b4d.png)
+![volatile-pot-2156 netlify app_ (1)](https://github.com/AmanKumarWeb19/volatile-pot-2156/blob/day-2/campaign_monitor/public/images/Homepage.png)
 
 <h2>🛠️ Installation Steps:</h2>
 
